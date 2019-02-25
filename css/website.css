@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900");
+body {
+  line-height: 1.5;
+  font-family: "Muli", sans-serif;
+}
+
+p, li, input, select, button {
+  font-family: "Muli", sans-serif;
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+p {
+  color: #888;
+}
+
+a {
+  color: inherit;
+  }
+  
+  a:hover 
+{
+     opacity: 0.5;
+     text-decoration:none; 
+     cursor:pointer;
+     
+}
+.banner {
+  background-image: url("../images/desert.png");
+  background-repeat: no-repeat; 
+  background-position: center center;
+  width: 100%;
+  background-size: 100% auto;
+
+}
+
+.quote {
+  background: white;
+  opacity: 0.5;
+}
+
+.border-right {
+  border-right-width: 23px;
+  border-right-color: black;
+}
+.title{
+  font-size: 30px;
+}
+
+.title2{
+  font-size: 18px;
+}
+.overview {
+  background: #fff;
+  padding: 20px 15px 5px 15px;
+  border-radius: 3px;
+  margin-top: -60px;
+  box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.12);
+  opacity: 0.9;
+}
+
+.icon {
+  height: 25px;
+  width: 40px;
+  padding: 0px 10px 0px 0px;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.icon2 {
+  height: 30%;
+  width: 30%;
+}
+.header {
+  padding: 30px 0px 20px 0px;
+}
+
+#portfolio {
+  padding-bottom: 60px;
+}
+.card-title{
+    text-align: center;
+    border-bottom: 3px solid #F4F7F9;
+}
+.deck {
+    background-color: white;
+    border-bottom: 3px solid #F4F7F9;
+    box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.09);
+ 
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.greyBackground{
+  background-color: rgb(245,245,245); 
+}
+
+
+.category-list {
+  padding: 3px 8px;
+}
+
+.category-list li {
+    display: block;
+    font-size: 14px;
+    border-bottom: 1px solid #F4F7F9;
+    padding: 10px 0;
+}
+.category-list li a span {
+    float: right;
+    font-size: 10px;
+    border-radius: 10px;
+    color: #84919B;
+}
+
+.category-list li a {
+    display: block;
+    color: #777;
+    font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+.skills-icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border-radius: 40px;
+  padding: 6px 6px 6px 6px;
+}
+
+.icon-bg1 {
+  background: #EC3A56;
+  box-shadow: 0 0 0px 4px rgba(236, 58, 86, 0.35);
+}
+
+.icon-bg2 {
+  background: #1DBFFF;
+  box-shadow: 0 0 0px 4px rgba(29, 191, 255, 0.35);
+}
+
+.icon-bg3 {
+  background: #ccdb38;
+  box-shadow: 0 0 0px 4px rgba(204, 219, 56, 0.35);
+}
+
+.icon-bg4 {
+  background: #a676b8;
+  box-shadow: 0 0 0px 4px rgba(166, 118, 184, 0.35);
+}
+
+#skills {
+  padding-bottom: 80px;
+}
+
+
