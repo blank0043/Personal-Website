@@ -115,6 +115,10 @@ a {
     text-align: center;
     border-bottom: 3px solid #F4F7F9;
 }
+
+.card-body:hover {
+  opacity: 0.5;
+}
 .deck {
     background-color: white;
     border-bottom: 3px solid #F4F7F9;
